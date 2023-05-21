@@ -4,18 +4,27 @@
     justify-content: center;
     align-items:center;
     background-color: beige;
-    width: 600px;
-}
+    padding-top: 10px;
+    padding-bottom: 10px;
+   }
 
 .description {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 200px;
+    background-color:rgb(241, 241, 224);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 -10px 10px -5px rgba(0, 0, 0, 0.1);
  }
 
-.avatar { 
-    width: 200px;
+.description .avatar { 
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
 }
 .name { 
     font-size: 30px;
@@ -29,15 +38,22 @@
  }
 
 .stats {
-     width: 200px;
+    width: 200px;
+    background-color: rgb(218, 218, 190);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
  }
+
 .label { 
+    font-size: 10px;
     display: flex;
     flex-direction: column;
     font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.quantity { }
+.quantity {
+   color: #947ad1;  
+ }

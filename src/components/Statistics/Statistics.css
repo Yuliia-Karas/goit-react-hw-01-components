@@ -1,6 +1,33 @@
-.statistics { }
-.title { }
-.stat-list { }
-.item { }
-.label { }
-.percentage { }
+.statistics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+.title {
+    text-transform: uppercase;
+    }
+
+.stat-list {
+    display: flex;
+    }
+        
+.stat-list .item {
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    height: 60px;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    }
+
+.label {
+    text-align: center;
+    }
+
+.percentage { 
+    display: block;
+    text-align: center;
+    }

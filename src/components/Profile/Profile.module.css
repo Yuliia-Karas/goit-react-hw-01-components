@@ -14,21 +14,22 @@
     justify-content: center;
     align-items: center;
     width: 200px;
-    background-color:rgb(241, 241, 224);
+    background-color:rgb(238, 238, 214);
     padding-top: 10px;
     padding-bottom: 10px;
     box-shadow: 0 -10px 10px -5px rgba(0, 0, 0, 0.1);
  }
 
-.description .avatar { 
+.avatar { 
     width: 80px;
     height: 80px;
     background-color: white;
     border-radius: 50%;
 }
 .name { 
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 600;
+    text-align: center;
 }
 .tag {
     color: #947ad1; 
@@ -43,6 +44,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+     box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
  }
 
 .label { 

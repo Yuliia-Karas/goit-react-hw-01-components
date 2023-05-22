@@ -1,4 +1,4 @@
-.friend-list .item {
+.item {
     width: 300px;
     display: flex;
     flex-direction: row;
@@ -10,8 +10,8 @@
     transition: transform 500ms ease-out;
 }
 
-.friend-list .item:hover,
-.friend-list .item:focus {
+.item:hover,
+.item:focus {
     transform: scale(1.05);
 }
 
@@ -42,9 +42,9 @@
 }
 
 .online {
- background-color: green;
+    background-color: green;
 }
 
 .offline {
-  background-color: red;
+    background-color: red;
 }

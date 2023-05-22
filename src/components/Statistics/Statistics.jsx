@@ -1,4 +1,4 @@
-    import './Statistics.css';
+    import css from './Statistics.module.css';
     import PropTypes from 'prop-types';
 
 export const Statistics = ({ title, stats }) => {
@@ -11,12 +11,12 @@ export const Statistics = ({ title, stats }) => {
     return color;
   };
     return (
-        <section className="statistics">
-            {title && <h2 className="title">{title}</h2>}
-            <ul className="stat-list">
-            {stats.map(({ id, label, percentage }) => <li className="item" key={id} style={{ backgroundColor: getRandomColor() }}>
-                    <span className="label">.docx</span>
-                    <span className="percentage">{`${percentage}%`}</span>
+        <section className={css.statistics}>
+            {title && <h2 className={css.title}>{title}</h2>}
+            <ul className={css["stat-list"]}>
+                {stats.map(({ id, label, percentage }) => <li className={css.item} key={id} style={{ backgroundColor: getRandomColor() }}>
+                    <span className={css.label}>.docx</span>
+                    <span className={css.percentage}>{`${percentage}%`}</span>
                     </li>
                     )}
                 </ul>
